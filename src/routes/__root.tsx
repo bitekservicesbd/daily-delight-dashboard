@@ -79,13 +79,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "T握 · Simple Task Management" },
+      { title: "Kanso — Simple Task Management" },
       {
         name: "description",
         content:
           "Organize your day with a clean task manager. Track due dates, priorities, and progress from one focused dashboard.",
       },
-      { property: "og:title", content: "T握 · Simple Task Management" },
+      { property: "og:title", content: "Kanso — Simple Task Management" },
       {
         property: "og:description",
         content:
